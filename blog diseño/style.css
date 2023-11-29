@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 600px;
+    background: #ee9ca7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee9ca7, #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: #131212;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+nav > a:hover {
+   text-decoration: underline;
+}
+
+/*about us*/
+.contenedor-sobre-familia{
+    display:flex ;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 48%;
+}
+
+.sobre-familia .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 600;;
+    text-align: justify;
+}
+/*galeria*/
+.portafolio{
+    background: #f2f2f2;
+}
+
+.galeria-port{
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;   
+}
+    
+
+.imagen-port{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.imagen-port > img{
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
+   
+}
+/* our team*/ 
+.about-jobis{
+    background: #f2f2f2;
+    padding-bottom:30px;  
+}
+.jobis-cont{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobis-ind{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+
+.jobis-ind img{
+    width: 80%;
+}
+.jobis-ind h3{
+    margin: 10px 0;
+}
+
+.jobis-ind p{
+    font-weight: 300;
+    text-align: center;
+    float: left;
+}
+/*footer*/
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3 ;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
